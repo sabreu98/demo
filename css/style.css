@@ -1,0 +1,52 @@
+
+/* my stylings */
+* {
+  box-sizing: border-box;
+}
+h1{
+  font-family: Verdana;
+}
+
+header,nav,main{
+  width: 70%;
+  margin:auto;
+  border: 1px solid black;
+}
+
+
+.artist-image-content{
+width: 100%
+padding:20px;
+}
+
+.picture-lg {
+  background-color: #ccc;
+  width: 100%;
+  min-height:200px;
+
+}
+
+
+.price-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.price-grid span:nth-child(2){
+  text-align: right;
+
+}
+
+.button {
+  background-color: #ccc;
+  border-radius: 12px;
+  border: 1px solid black;
+
+}
+
+@media only screen and (min-width:1024px) {
+  .artist-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
